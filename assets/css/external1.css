@@ -1,0 +1,49 @@
+*{
+    font-size: 1.3rem;
+}
+
+
+body{
+    background-color: bisque;
+}
+
+.anasayfa{
+    background-color: coral;
+}
+
+p.anasayfa{
+    background-color: cornsilk;
+}
+
+#anaorta{
+    background-color: crimson;
+}
+
+#iletisimorta{
+    background-color: rgb(255, 0, 43);
+}
+
+#personellerorta{
+    background-color: violet;
+}
+
+
+.personeller{
+    background-color: yellowgreen;
+}
+
+.iletisim{
+    background-color: turquoise;
+}
+p{
+    color: brown;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+
+
