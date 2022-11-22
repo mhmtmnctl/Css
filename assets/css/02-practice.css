@@ -1,0 +1,32 @@
+nav.menu{
+    font-family: "Poppins",sans-serif;
+    text-align: left;
+    background-color: rgb(69, 189, 189);
+    width: 300px;
+
+}
+nav.menu ul{
+    list-style-type: "💎";
+    padding: 1rem;
+    list-style-position: inside;/* içerde olsun emojiul'nin içinde olsun*/
+    
+}
+nav.menu a{
+    text-decoration: none;/* altı çizgiler kalsın */
+    font-weight: 400;
+    color: black;
+    padding-left: 0 0.5rem;
+
+}
+
+nav.menu a:visited{
+color: black;/* renk siyah kalsın tıklanınca değişmesin */
+}
+
+nav.menu a:hover{/* üzerine gelindiğinde olacaklar */
+    background-color: rgb(46, 170, 170);
+    color: rgb(241, 221, 34);
+    }
+    nav.menu li{
+        padding: 0.3rem ;
+    }
