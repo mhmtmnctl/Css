@@ -1,49 +1,41 @@
-*{
-    font-size: 1.3rem;
+* {
+  font-size: 1rem;
 }
 
-
-body{
-    background-color: bisque;
+body {
+  background-color: bisque;
 }
 
-.anasayfa{
-    background-color: coral;
+.anasayfa {
+  background-color: cornsilk;
+}
+p.anasayfa {
+  background-color: rgb(233, 126, 87);
 }
 
-p.anasayfa{
-    background-color: cornsilk;
+#anaorta {
+  background-color: rgb(67, 67, 167);
+}
+#iletisim-orta {
+  background-color: rgb(237, 168, 143);
+}
+#personeller-orta {
+  background-color: palevioletred;
 }
 
-#anaorta{
-    background-color: crimson;
+.personeller {
+  background-color: chocolate;
+}
+.iletisim {
+  background-color: brown;
 }
 
-#iletisimorta{
-    background-color: rgb(255, 0, 43);
+p {
+  color: palevioletred;
+  text-align: center;
+  font-size: 16px;
 }
 
-#personellerorta{
-    background-color: violet;
+ul {
+  text-align: right;
 }
-
-
-.personeller{
-    background-color: yellowgreen;
-}
-
-.iletisim{
-    background-color: turquoise;
-}
-p{
-    color: brown;
-    text-align: center;
-}
-
-ul{
-    list-style-type: none;
-    text-align: center;
-}
-
-
-

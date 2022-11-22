@@ -6,32 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      /* piksel px de sabit responsive değil */
+      .parent {
+        font-size: 2rem;
+        background-color: rgb(235, 251, 251);
+      }
+
       .kutu1 {
-        width: 100px;
-        height: 100px;
+        width: 20em; /* 2*16*20=640px */
+        height: 3em; /* 96px */
         background-color: coral;
       }
       .kutu2 {
-        width: 200px;
-        height: 200px;
+        width: 10em; /* 2*16*10 */
+        height: 5em;
         background-color: crimson;
       }
       .kutu3 {
-        width: 300px;
-        height: 300px;
+        width: 15em;
+        height: 10em;
         background-color: lightgray;
       }
     </style>
   </head>
   <body>
-    <div>
+    <div class="parent">
       <div class="kutu1"></div>
     </div>
-    <div>
+    <hr />
+
+    <div class="parent">
       <div class="kutu2"></div>
     </div>
-    <div>
+    <hr />
+    <div class="parent">
       <div class="kutu3"></div>
     </div>
   </body>
