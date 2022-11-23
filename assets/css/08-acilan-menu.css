@@ -1,0 +1,6 @@
+.menu:hover ul{
+    display: inline;
+}
+.menu ul{
+    display: none;
+}

@@ -1,0 +1,14 @@
+:root{
+    --color1: red;/* logo renkleri kuyulabiir. */
+    --color2: blue;
+    --color3: rgb(245, 115, 29);
+    --color: rgb(56, 85, 212);
+}
+.baslik{
+    background-color: var(--color3);
+    color:  var(--color1);
+}
+
+.about{
+    color: var(--color2);
+}

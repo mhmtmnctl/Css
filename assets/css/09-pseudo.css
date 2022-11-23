@@ -1,0 +1,27 @@
+input[type="text"]{
+    background-color: rgb(226, 226, 226);
+    border:none;
+    padding: 0.5rem 1rem;
+}
+input[type="text"]:focus{
+    background-color: blueviolet;
+    color: white;
+}
+input[type="checkbox"]:checked{
+    outline: 3px solid red;
+}
+.liste li:first-child{
+    font-weight: bold;
+}
+.liste li:nth-child(2){
+   color: red;
+}
+
+.price-list tr:nth-child(odd){/* tek satırların arka planı */
+    background: burlywood;
+
+}
+
+.price-list tr:nth-child(even) td:last-child{/* çif satırlardaki son hücre */
+    background-color: cyan;
+}
