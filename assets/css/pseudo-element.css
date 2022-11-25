@@ -1,0 +1,29 @@
+.about::first-letter{
+font-size: 2rem;
+}
+.about::first-line{
+    color: red;
+}
+.about::selection{/* yazıları seçtiğimizde alacağı renk */
+    background-color: greenyellow;
+}
+.liste li{
+    color: red;
+}
+.liste li::marker{/* listenin markerlarının özellikleri */
+    color: blue;
+    font-size: 3rem;
+}
+.about span{
+    color: blue;
+}
+
+.about span::before{/* tüm spanların önüne content ile bir işaret koyduk */
+    content: "↪️";
+    
+}
+
+.about span::after{/* tüm spanların sonuna content ile bir işaret koyduk */
+    content: "↩️SON";
+}
+
