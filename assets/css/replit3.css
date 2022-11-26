@@ -1,0 +1,90 @@
+/* background: rgb(117,116,143);
+background: linear-gradient(90deg, rgba(117,116,143,1) 0%, rgba(211,211,221,1) 100%, rgba(0,212,255,1) 100%); */
+*{
+    margin: 0;
+    padding: 0;
+     /*font-family: 'Montserrat', sans-serif; */
+    
+}
+
+
+.main{
+    display: inline-block;
+    background: rgb(222,222,227);
+    background: linear-gradient(0deg, rgba(222,222,227,1) 0%, rgba(166,184,184,1) 100%);
+    padding: 10px;
+    
+
+}
+
+thead{
+    background-color: rgb(46, 45, 45);   
+}
+
+thead > tr > th{
+    color: white;
+}
+
+div > table > thead > tr th{
+    padding: 10px;
+}
+tbody > tr > td{
+    color: black;
+}
+
+ tbody > tr:nth-child(odd){/* tek satırların arka planı */
+    background: rgb(207, 204, 207);  
+}
+
+tbody > tr:nth-child(even){/* tek satırların arka planı */
+    background: rgb(226, 226, 225);  
+}
+
+tbody > tr:hover{
+    background-color: rgb(171, 189, 108);
+
+}
+
+tfoot > tr{
+    background-color: rgb(46, 45, 45);
+    color: white;
+    text-align: right;
+}
+
+tbody > tr > td:nth-child(3){
+    text-align: center;
+    
+}
+
+tbody > tr > td:nth-child(4){
+    text-align: right;
+}
+
+tbody > tr > td:nth-child(5){
+    text-align: right;
+}
+
+tbody > tr > td:last-child{
+    text-align: center;
+}
+
+.butondiv{ 
+    text-align: right;
+
+
+}
+
+
+.butondiv > input{
+    margin: 1rem ;
+    padding: 0.4rem;
+    background-color:rgb(209, 146, 109) ;
+    color: white;
+}
+.butondiv > input:hover{
+    background-color: rgb(207, 80, 34);
+}
+
+.ana{
+    display: inline-block;
+}
