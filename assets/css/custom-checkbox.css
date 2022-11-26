@@ -1,0 +1,28 @@
+.custom-checkbox input[type="checkbox"]{
+
+    display: none;
+}
+
+.custom-checkbox label::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(255, 0, 0);
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px black;/* gölge verebilmek için */
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label::before{
+    background-color: red;
+}
+
+.custom-checkbox{
+    user-select: none;/* tıklayınız yazısı seçilemesin */
+}
+
+.custom-checkbox label{
+    cursor: pointer;
+}
+
