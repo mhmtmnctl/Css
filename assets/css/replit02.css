@@ -1,0 +1,40 @@
+
+.list{
+    list-style: none;
+    display: none;
+   background-color: rgb(194, 194, 186);
+   text-align: center; 
+   padding-left: 0;
+   margin:0;
+   font-size: 2rem; 
+}
+
+.list li:first-child{
+    background-color: black;
+    color: white;
+}
+
+.chk-mode:checked + .list{
+   display: inline-block;
+}
+
+.lbl-mode{
+    cursor: pointer; 
+    display:block;
+    font-size: 2rem;
+
+  
+       
+}
+.chk-mode{
+    display: none;
+    
+}
+
+div{
+    display: inline-block;
+    background-color: rgb(245, 239, 239);
+    margin: 1rem ;
+    margin-left: 1rem;
+    padding: 5px;
+}
