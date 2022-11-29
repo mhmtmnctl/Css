@@ -1,0 +1,90 @@
+:root{
+    --color1:rgb(155, 12, 155);
+    --color2:rgb(223, 221, 221);
+    --color3:rgb(100, 104, 104);
+}
+body{
+    background-color: var(--color1);
+}
+
+.section{
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+    
+
+    
+    
+}
+
+.left{
+
+background-color: var(--color2);
+min-width: 350px;
+min-height:500px;
+
+}
+
+.img{
+    background-image: url("../img/bg-login.jpg");
+    min-width: 500px;
+    min-height: 500px;
+    
+    background-repeat: no-repeat;
+  
+}
+.img div{
+    text-align: center;  
+    padding-top: 10rem;
+}
+
+.return{
+    margin-left: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 7rem;
+}
+
+.return a{
+
+    text-decoration: none;
+    color: var(--color3);
+  
+
+}
+
+.sign{
+    text-align: center;
+}
+.user{
+    text-align: center;
+    margin-top:  10px;
+    margin-bottom: 7rem;
+}
+.user input{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: var(--color2);
+
+    
+}
+.letsgo{
+    text-align: center;
+}
+
+.letsgo button{
+    background-color: var(--color1);
+    text-align: center;
+    color: white;
+    padding: .5rem 2rem .5rem 2rem;
+    border-radius: 5px;
+    
+    box-shadow: 3px 3px 2px 2px #888888;    
+    border: none;
+
+}
+
+.letsgo button:hover{
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
